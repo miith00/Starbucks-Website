@@ -1,0 +1,431 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="starbucks.css">
+    <style>
+
+    </style>
+    <title>Menu: Starbucks Coffee Company</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="header-wraper">
+                <div class="header-logo">
+                    <a href="homepage.html"><img src="/starbucks/img/iconfinder_starbucks_294657 (2).png" alt=""></a>
+                </div>
+                <div class="header-mrg">
+                    <ul>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="gift-cards.html">GIFT CARDS</a></li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <a href="location-store.html"><img src="/starbucks/img/iconfinder_icon-location_211854 (1).png" alt="">Find a store</a>
+                    <a href="signin.html" id="signin">Sign in</a>
+                    <a href="join.html" id="join">Join now</a>
+                </div>
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <div class="header-logo">
+                        <a href="homepage.html"><img src="/starbucks/img/iconfinder_starbucks_294657 (2).png" alt=""></a>
+                    </div>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <!-- <div class="header-mrg"> -->
+                        <ul>
+                            <li><a href="menu.html">MENU</a></li>
+                            <li><a href="rewards.html">REWARDS</a></li>
+                            <li><a href="gift-cards.html">GIFT CARDS</a></li>
+                        </ul>
+                        <!-- </div> -->
+                        <a href="location-store.html"><img src="/starbucks/img/iconfinder_icon-location_211854 (1).png" alt="">Find a store</a>
+                        <a href="signin.html" id="signin">Sign in</a>
+                        <a href="join.html" id="join">Join now</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+    </section>
+
+
+    <article>
+        <div class="main" style="margin-top: 100px;"></div>
+        <h2>Menu</h2>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')">All products</button>
+            <button class="btn" onclick="filterSelection('nature')"> Coffees</button>
+            <button class="btn" onclick="filterSelection('cars')"> Teas</button>
+            <button class="btn" onclick="filterSelection('people')"> Frappuccino®</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="coffee">
+                <h3 class="title">Cold Brews</h3>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/coldbrew/[9200000000479]_20210426091843897.jpg" alt="Mountains" style="width:100%">
+                        <h4>Nitro Cold Brew</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/coldbrew/[9200000000487]_20210430112319040.jpg" alt="Lights" style="width:100%">
+                        <h4>Cold Brew Coffee with Milk</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/coldbrew/[9200000002081]_20210415133656839.jpg" alt="Nature" style="width:100%">
+                        <h4>Dolce Cold Brew</h4>
+
+                    </div>
+                </div>
+                <h3 class="title">Iced Coffees</h3>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/iced/[110563]_20210426095937808.jpg" alt="Mountains" style="width:100%">
+                        <h4>Ice Cafe Americano</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/iced/[9200000002081]_20210415133656839.jpg" alt="Lights" style="width:100%">
+                        <h4>Caramel Macchiato</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/iced/[9200000002953]_20210427132718157.jpg" alt="Nature" style="width:100%">
+                        <h4>Vanilla Ice Blonde Double Shot</h4>
+
+                    </div>
+                </div>
+                <h3 class="title">Lattes</h3>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/latte/[9200000001939]_20210225094313315.jpg" alt="Mountains" style="width:100%">
+                        <h4>Vanilla Bean Latte</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/latte/[9200000001941]_20210225094346653.jpg" alt="Lights" style="width:100%">
+                        <h4>Iced Vanilla Bean Latte</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/latte/[9200000003484]_20210429173125069.jpg" alt="Nature" style="width:100%">
+                        <h4>Ice Blonde Espresso Latte</h4>
+
+                    </div>
+                </div>
+                <h3 class="title">Mochas</h3>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/mocha/[110566]_20210415134334280.jpg" alt="Mountains" style="width:100%">
+                        <h4>Ice Cafe Mocha</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/mocha/[46]_20210415134438165.jpg" alt="Lights" style="width:100%">
+                        <h4>Hot Mocha</h4>
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/coffees/mocha/[9200000003509]_20210322093452399.jpg" alt="Nature" style="width:100%">
+                        <h4>Velvet Dark Mocha Nitro</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="teas">
+                <h3 class="title">Black Teas</h3>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/blacktea/[135612]_20210415142512793.jpg" alt="Car" style="width:100%">
+                        <h4>Ice Chai Tea Latte</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/blacktea/[4004000000036]_20210415143933425.jpg" alt="Car" style="width:100%">
+                        <h4>Earl Grey Tea</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/blacktea/[9200000000190]_20210419131723532.jpg" alt="Car" style="width:100%">
+                        <h4>Iced Black Tea Lemonade</h4>
+                    </div>
+                </div>
+                <h3 class="title">Green Teas</h3>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/greentea/[400400000094]_20210415230316469.jpg" alt="Car" style="width:100%">
+                        <h4>Ice Blue Green</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/greentea/[9200000002496]_20210419131039350.jpg" alt="Car" style="width:100%">
+                        <h4>Matcha Macchiato</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/greentea/[9200000003516]_20210322093050113.jpg" alt="Car" style="width:100%">
+                        <h4>Ice Blue Green Tangerine Mint Tea</h4>
+                    </div>
+                </div>
+                <h3 class="title">Fruit Teas</h3>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/fruittea/[9200000002754]_20210419131406610.jpg" alt="Car" style="width:100%">
+                        <h4>Byeolgung Schisandra Youth Berry Tea</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/fruittea/[9200000003502]_20210416154536794.jpg" alt="Car" style="width:100%">
+                        <h4>Passion Fruit Tea</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/fruittea/[9200000003512]_20210322093119881.jpg" alt="Car" style="width:100%">
+                        <h4>Ice Villa Schisandra Youth Berry Tea</h4>
+                    </div>
+                </div>
+                <h3 class="title">Milk Teas</h3>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/milktea/[9200000002966]_20210415125358643.jpg" alt="Car" style="width:100%">
+                        <h4>Black Milk Tea Docle</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/milktea/[9200000003513]_20210322092740277.jpg" alt="Car" style="width:100%">
+                        <h4>Black Soya Milk Tea Hot</h4>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/teas/milktea/[9200000003514]_20210322092951530.jpg" alt="Car" style="width:100%">
+                        <h4>Ice Black Soya Milk Tea</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="frapp">
+                <h3 class="title">Coffee Frappuccino®</h3>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/frapp/cofrapp/[168007]_20210415144337428.jpg" alt="Car" style="width:100%">
+                        <h4>Espresso Frappuccino</h4>
+                    </div>
+                </div>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/frapp/cofrapp/[168010]_20210415154711116.jpg" alt="Car" style="width:100%">
+                        <h4>Caramel Frappuccino</h4>
+                    </div>
+                </div>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/frapp/cofrapp/[9200000002760]_20210415133558068.jpg" alt="Car" style="width:100%">
+                        <h4>Double Espresso Chip Frappuccino</h4>
+                    </div>
+                </div>
+                <h3 class="title">Creme Frappuccino®</h3>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/frapp/creamfrap/[9200000002090]_20200921171357273.jpg" alt="Car" style="width:100%">
+                        <h4>Cream Frappuccino slime green Jeju</h4>
+                    </div>
+                </div>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/frapp/creamfrap/[9200000002161]_20210419131453303.jpg" alt="Car" style="width:100%">
+                        <h4>White Cream Frappuccino Strawberry</h4>
+                    </div>
+                </div>
+                <div class="column people">
+                    <div class="content">
+                        <img src="/starbucks/img/menu/frapp/creamfrap/[9200000002502]_20210426100408048.jpg" alt="Car" style="width:100%">
+                        <h4>Green Tea Frappuccino</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+        <!-- END MAIN -->
+        </div>
+
+    </article>
+    <footer>
+        <div>
+            <div class=" footer-row ">
+                <div class="footer-col-1 ">
+                    <ul>
+                        <h3>About us</h3>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="rewards.html">REWARDS</a></li>
+                        <li><a href="gift-cards.html">GIFT CARDS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-2 ">
+
+                    <ul>
+                        <h3>Careers</h3>
+                        <li><a href="https://www.starbucks.com/careers/working-at-starbucks/culture-and-values ">Culture and Values</a></li>
+                        <li><a href="https://stories.starbucks.com/stories/inclusion-diversity/ ">Inclusion, Diversity, and Equity</a></li>
+                        <li><a href="https://www.starbucks.com/careers/working-at-starbucks/education ">College Achievement Plan</a></li>
+                        <li><a href="https://www.starbucks.com/careers/ ">U.S. Careers</a></li>
+                        <li><a href="https://www.starbucks.com/careers/international-careers ">International Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3 ">
+
+                    <ul>
+                        <h3>Social Impact</h3>
+                        <li><a href="https://www.starbucks.com/responsibility/sourcing ">Ethical Sourcing</a></li>
+                        <li><a href="https://stories.starbucks.com/stories/planet/ ">Leading in Sustainability</a></li>
+                        <li><a href="https://www.starbucks.com/responsibility/community ">Strengthening Communities</a></li>
+                        <li><a href="https://www.starbucks.com/responsibility/community/opportunity-youth ">Creating Opportunities</a></li>
+                        <li><a href="https://www.starbucks.com/responsibility/global-report ">Global Social Impact Report</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4 ">
+
+                    <ul>
+                        <h3>For Business Partners</h3>
+                        <li><a href="https://www.starbucks.com/business/landlord-faq ">Landlord Support Center</a></li>
+                        <li><a href="https://www.starbucks.com/business/suppliers ">Suppliers</a></li>
+                        <li><a href="https://www.starbuckscardb2b.com/ ">Corporate Gift Card Sales</a></li>
+                        <li><a href="https://www.nestlecoffeepartnerssl.com/our-brands/we-proudly-serve-starbucks-coffee-program ">Office and Foodservice Coffee</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-5 ">
+
+                    <ul>
+                        <h3>Order and Pickup</h3>
+                        <li><a href=" ">Order on the Web</a></li>
+                        <li><a href="https://delivery.starbucks.com/ ">Delivery</a></li>
+                        <li><a href=" ">Order and Pickup Options</a></li>
+                        <li><a href="https://athome.starbucks.com/?utm_source=starbucks.com&utm_medium=referral&utm_campaign=footer ">Explore and Find Coffee for Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="icon ">
+                <a href="https://www.facebook.com/Starbucks/ "><img src="/starbucks/img/iconfinder_Circled_Facebook_svg_5279111 (1).png " alt=" "></a>
+                <a href="https://www.instagram.com/starbucks/ "><img src="/starbucks/img/iconfinder_Circled_Instagram_svg_5279112.png " alt=" "></a>
+                <a href="https://www.pinterest.com/starbucks/_created/ "><img src="/starbucks/img/iconfinder_Circled_Pinterest_svg_5279116 (1).png " alt=" "></a>
+                <a href="https://www.youtube.com/starbucks "><img src="/starbucks/img/iconfinder_Circled_Youtube_svg_5279120 (1).png " alt=" "></a>
+                <a href="https://open.spotify.com/user/starbucks "><img src="/starbucks/img/iconfinder_spotify_rounded_621252 (2).png " alt=" "></a>
+                <a href="https://twitter.com/starbucks/ "><img src="/starbucks/img/iconfinder_43-twitter_104461.png " alt=" "></a>
+                <p style="color: darkgray; ">© 2021 Starbucks Coffee Company. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
+<script>
+    filterSelection("all")
+
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        var title = document.getElementsByClassName("title");
+        if (c == "all") c = "";
+        for (let i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) {
+                w3AddClass(x[i], "show");
+            }
+        }
+        for (let i = 0; i < title.length; i++) {
+            w3RemoveClass(title[i], "show");
+            if (title[i].nextElementSibling.className.indexOf('show') > -1) {
+                w3AddClass(title[i], "show");
+            }
+        }
+    }
+
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += " " + arr2[i];
+            }
+        }
+    }
+
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    var title = document.getElementsByClassName("title")
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
